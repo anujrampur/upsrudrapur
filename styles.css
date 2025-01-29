@@ -1,0 +1,44 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#08a3dceb;
+    font-family: Arial, sans-serif;
+    /*height: 30px;*/
+    
+  }
+
+  .contact-section .phone {
+    flex-grow: 1;
+    text-align: center;
+    color: #ffffff;
+   
+  }
+
+  .contact-section .email {
+    /*text-align: right;*/
+    margin-right: 200px;
+    color: white;
+    background: rgb(182, 7, 19);
+    font-size:1.5rem;
+  }
+  .contact-section>.email {
+    margin-bottom: 0;
+  }
+   
+    
+   
+   
+     
+ 
+    
+    
+      
+   
+  
+   
+    
+    
+    
+ 

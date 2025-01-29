@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+      <p>Your email content goes here...</p>
+    </div>
+  </div>
+  <style>
+    /* Ensure the container fills the available space */
+.container {
+  width: 100%;
+  height: 100%; /* Adjust as needed, e.g., 100vh for full viewport height */
+  display: flex; /* Center the box if needed */
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0; /* Optional background */
+}
+
+/* Style the box to fit perfectly */
+.box {
+  width: 100%; /* Adjust percentage or fixed size as needed */
+  max-width: 600px; /* Set max width for readability */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the width */
+  background-color: white; /* Background for the box */
+  border: 1px solid #ccc; /* Optional border */
+  border-radius: 8px; /* Optional rounded corners */
+  overflow-wrap: break-word; /* Ensure long words break properly */
+  word-wrap: break-word; /* Compatibility for older browsers */
+  overflow: hidden; /* Prevent content overflow */
+}
+
+  </style>
+  
+</body>
+</html>
